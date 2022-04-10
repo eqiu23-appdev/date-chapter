@@ -7,4 +7,6 @@
 #   "Is today Monday? false"
 # 
 # if today is not Monday.
-
+require "date"
+t = Date.today
+p "Is today Monday? #{t.monday?}"
